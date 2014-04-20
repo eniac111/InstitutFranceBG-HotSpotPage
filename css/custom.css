@@ -1,5 +1,12 @@
 html, body {
     height: 100%;
+    background: url(/assets/img/bg-6.png) 49px 37px,
+    url(../img/bg-5.png) 35px 51px,
+    url(../img/bg-4.png) 163px 50px,
+    url(../img/bg-3.png) 147px 128px,
+    url(../img/bg-2.png) 25px 57px,#f2f2f2 
+    url(../img/bg-1.png) 11px 33px;
+    color:#454545;
 }
 
 /* Wrapper for page content to push down footer */
