@@ -5,6 +5,45 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.footer {
+  padding-bottom: 30px;
+  /*text-align: center;*/
+  /*FIXME: Move the footer to the bottom of the page*/
+}
+
+.copyright {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.rounded-corner {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.lighting-border {
+  -moz-box-shadow: 0 0 15px #0D742F;
+  -webkit-box-shadow: 0 0 15px #0D742F;
+  box-shadow: 0 0 15px #0D742F;
+}
+
+.transparent {
+  background-color: white;
+  /* IE 8 support */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  /* IE 5-7 */
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+}
 
 .panel-default {
 opacity: 0.9;
