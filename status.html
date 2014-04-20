@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Institut Français de Bulgarie Hotspot | Session Status</title>
+    <title>Institut Français de Bulgarie Point Chaud | Session Status</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -13,18 +13,18 @@
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
+                    <span class="sr-only">Navigation bascule</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">$(identity)</a>
+                <a class="navbar-brand" href="#">Institut Français de Bulgarie - Point Chaud</a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="login">Login</a></li>
-                    <li class="active"><a href="#">Status</a></li>
-                    <li><a href="logout?erase-cookie=true">Logout</a></li>
+                    <li><a href="login">Connexion</a></li>
+                    <li class="active"><a href="#">État</a></li>
+                    <li><a href="logout?erase-cookie=true">Déconnexion</a></li>
                 </ul>
             </div>
         </div>
@@ -38,9 +38,9 @@
             $(endif)
 
             $(if login-by == 'trial')
-                <div class="alert alert-info">Welcome trial user!</div>
+                <div class="alert alert-info">Bienvenue trial user!</div>
             $(elif login-by != 'mac')
-                <div class="alert alert-info">Welcome $(username)!</div>
+                <div class="alert alert-info">Bienvenue $(username)!</div>
             $(endif)
         </div>
 
