@@ -51,27 +51,27 @@
                     <table class="table table-striped">
                         <tbody>
                         <tr>
-                            <td>IP address:</td>
+                            <td>adresse IP:</td>
                             <td>$(ip)</td>
                         </tr>
                         <tr>
-                            <td>bytes up/down</td>
+                            <td>octets h/b</td>
                             <td>$(bytes-in-nice) / $(bytes-out-nice)</td>
                         </tr>
                         $(if session-time-left)
                         <tr>
-                            <td>connected / left:</td>
+                            <td>lié / temps:</td>
                             <td>$(uptime) / $(session-time-left)</td>
                         </tr>
                         $(else)
                         <tr>
-                            <td>connected:</td>
+                            <td>lié:</td>
                             <td>$(uptime)</td>
                         </tr>
                         $(endif)
                         $(if refresh-timeout)
                         <tr>
-                            <td>status refresh</td>
+                            <td>statut rafraîchissement</td>
                             <td>$(refresh-timeout)</td>
                             $(endif)
                         </tbody>
