@@ -1,13 +1,17 @@
 body { 
-  background: url('http://if-medped.org/hotspot/images') no-repeat center center fixed; 
-  -webkit-background-size: 100% auto;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  background-size: 100% auto;
+  background: url('http://if-medped.org/hotspot/images') no-repeat;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 }
 .footer {
   padding-bottom: 30px;
-  /*text-align: center;*/
+  text-align: right;
   /*FIXME: Move the footer to the bottom of the page*/
 }
 
