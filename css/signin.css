@@ -1,6 +1,6 @@
 body { 
   background: url('http://if-medped.org/hotspot/images') no-repeat;
-  position: fixed;
+  position: center;
   left: 0px;
   top: 0px;
   z-index: -1;
@@ -11,7 +11,7 @@ body {
 }
 .footer {
   padding-bottom: 30px;
-  text-align: right;
+  /*text-align: right;*/
   /*FIXME: Move the footer to the bottom of the page*/
 }
 
